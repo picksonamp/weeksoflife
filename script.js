@@ -173,7 +173,7 @@ document.getElementById('autor3').innerHTML = as[counter + 6];
 
 const readingTextTimer = setInterval(() => {
 
-    
+    i = 1;
 
     const opacity = setInterval(() => {
 
