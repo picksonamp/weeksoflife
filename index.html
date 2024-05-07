@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Недели Жизни</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="square.ico">
+</head>
+<body>
+    
+
+    <div id="top-block">
+        <h1 id="header">Недели <span>Жизни</span></h1>
+
+        <p id="paragraph">Введите дату рождения, что бы узнать сколько недель вы прожили</p>
+
+        <div id="calendarFlex">
+            <div>
+                <input type="date" id="birthday-date" name="date">
+                <input type="button" id="calculate" value="Посчитать">
+            </div>
+            <div id="alertText"></div>
+        </div>
+
+        <div id="quotes-block">
+
+            <div class="quotes">
+                <p class="quote" id="quote1"></p>
+                <p class="autor" id="autor1"></p>
+            </div>
+
+            <div class="quotes">
+                <p class="quote" id="quote2">Обычные люди думают, как потратить время, великие люди думают, как его использовать.</p>
+                <p class="autor" id="autor2">Артур Шопенгауэр</p>
+            </div>
+
+            <div class="quotes">
+                <p class="quote" id="quote3">Обычные люди думают, как потратить время, великие люди думают, как его использовать.</p>
+                <p class="autor" id="autor3">Артур Шопенгауэр</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="bottom-block">
+        <div id="leftside-bottom-block">
+            <h3>Вы прожили <span id="enteredWeeks"></span><span id="spr"></span></h3>
+            <div>
+                <p>Таблица отображает колличество недель, которое можно прожить до 90 лет</p>
+                <p>Синие отметки наглядно показывают сколько недель вы прожили относительно такого возраста, 
+                    что человек, который его достиг, считается долгожителем</p>
+            </div>
+                <input type="button" id="back-button" value="Назад">
+        </div>
+        
+        <div id="container">
+               
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
